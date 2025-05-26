@@ -19,7 +19,7 @@ import re
 #GOOGLE_GENAI_USE_VERTEXAI="True"
 
 #client = genai.Client("True", "freddo-project", "us-central1")
-client = genai.Client(vertexai=True, project="mtoscano-dev-sandbox", location="us-central1")
+client = genai.Client(vertexai=True, project="sport-store-agent-ai", location="us-central1")
 #client = genai.Client(http_options=HttpOptions(api_version="v1"))
 
 def load_db_config():

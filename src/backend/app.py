@@ -4,6 +4,8 @@ import sys
 import os
 import logging
 import traceback
+from google.cloud import storage
+import io
 
 # Configure logging to output to console with debug level
 logging.basicConfig(
@@ -12,12 +14,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Add the src directory to the Python path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+# import the chat function
 from finn_agent import process_message as finn_chat
 
-# Define the correct absolute path to your images directory
-IMAGES_DIR = '/Users/mtoscano/Sandbox/shop-store-agent-ai/images'
+# Initialize GCS client
+storage_client = storage.Client()
+BUCKET_NAME = "sport-store-agent-ai-bck01"
+bucket = storage_client.bucket(BUCKET_NAME)
 
 app = Flask(__name__)
 CORS(app)
@@ -75,30 +78,21 @@ def test_image():
 
 @app.route('/images/<filename>')
 def serve_image(filename):
-    logger.debug(f"=== Image Request Debug ===")
-    logger.debug(f"Received request for image: {filename}")
-    logger.debug(f"Request headers: {dict(request.headers)}")
-    
+    """Serve images from GCS instead of local folder"""
     try:
-        image_path = os.path.join(IMAGES_DIR, filename)
-        logger.debug(f"Full image path: {image_path}")
+        blob = bucket.blob(f"images/{filename}")
         
-        if os.path.exists(image_path):
-            logger.debug(f"Image found at: {image_path}")
-            logger.debug(f"Image size: {os.path.getsize(image_path)} bytes")
-            return send_file(image_path, mimetype='image/png')
-        else:
-            logger.error(f"Image not found: {image_path}")
-            # List directory contents to help debug
-            logger.debug("Directory contents:")
-            for file in os.listdir(IMAGES_DIR):
-                logger.debug(f"- {file}")
-            return "Image not found", 404
-            
+        # Get the image data from GCS
+        image_data = blob.download_as_bytes()
+        
+        # Return the image with proper content type
+        return send_file(
+            io.BytesIO(image_data),
+            mimetype='image/png'  # Adjust if you have different image types
+        )
     except Exception as e:
-        logger.error(f"Error serving image: {str(e)}")
-        logger.error(traceback.format_exc())
-        return f"Error: {str(e)}", 500
+        logger.error(f"Error serving image {filename}: {str(e)}")
+        return "Image not found", 404
 
 if __name__ == '__main__':
     app.run(debug=True, port=8001) 

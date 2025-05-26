@@ -11,3 +11,5 @@ flask
 flask-cors
 fastapi
 uvicorn
+gunicorn
+google-cloud-storage

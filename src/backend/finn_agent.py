@@ -213,7 +213,7 @@ memory_store = {
 
 # Initialize ToolboxClient and load tools once at module level
 try:
-    toolbox_client = ToolboxClient("http://127.0.0.1:5000")
+    toolbox_client = ToolboxClient("https://toolbox-535807247199.us-central1.run.app")
     tools = toolbox_client.load_toolset()
 except Exception as e:
     logger.error(f"Failed to initialize toolbox: {str(e)}")

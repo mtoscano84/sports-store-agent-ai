@@ -1,11 +1,11 @@
 sources:
   my-pg-source:
     kind: postgres
-    host: 127.0.0.1
+    host: 10.223.0.2
     port: 5432
-    database: dbvector
+    database: store
     user: postgres
-    password: welcome1
+    password: Welcome1
 tools:
   search-products-by-description:
     kind: postgres-sql

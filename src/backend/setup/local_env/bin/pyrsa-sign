@@ -1,4 +1,4 @@
-#!/Users/mtoscano/Sandbox/finn-store-agent-ai/src/backend/setup/local_env/bin/python3
+#!/Users/mtoscano/Sandbox/sport-store-agent-ai/src/backend/setup/local_env/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
