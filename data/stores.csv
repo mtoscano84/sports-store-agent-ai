@@ -1,0 +1,7 @@
+store_id,name, address, city, postal_code, country, popularity_score 
+1,"Sports Gran Via 2","Avinguda de la Granvia de Hospitalet 75","Barcelona","08908","Spain","4.3"
+2,"Sports L'illa Diagonal","Avinguda Diagonal 577","Barcelona", "08029", "Spain", "4.5"
+3,"Sports Ciutat Vella","Carrer de la Canuda 20","Barcelona","08002","Spain","4.3"
+4,"Sports Gracia","Carrer Gran de Gracia 54","Barcelona","08012","Spain","4.1"
+5,"Sports Diagonal Mar","Avinguda Diagonal 3","Barcelona","08012","Spain","4.6"
+6,"Sports La Maquinista","Carrer de Potosi 2","Barcelona","08030","Spain","4.5"

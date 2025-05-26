@@ -1,0 +1,19 @@
+delivery_method_id,name,description,base_cost,estimated_delivery_time,store_id
+1,"Standard Home Delivery","Regular home delivery service within Barcelona metropolitan area",4.99,"2-4 business days",1
+2,"Express Delivery","Same day delivery for orders before 2pm in Barcelona city",9.99,"Same day delivery",1
+3,"Store Pickup","Pick up your order at Sports Gran Via 2",0.00,"Ready in 2 hours",1
+4,"Standard Home Delivery","Regular home delivery service within Barcelona metropolitan area",4.99,"2-4 business days",2
+5,"Express Delivery","Same day delivery for orders before 2pm in Barcelona city",9.99,"Same day delivery",2
+6,"Store Pickup","Pick up your order at Sports L'illa Diagonal",0.00,"Ready in 2 hours",2
+7,"Standard Home Delivery","Regular home delivery service within Barcelona metropolitan area",4.99,"2-4 business days",3
+8,"Express Delivery","Same day delivery for orders before 2pm in Barcelona city",8.99,"Same day delivery",3
+9,"Store Pickup","Pick up your order at Sports Ciutat Vella",0.00,"Ready in 2 hours",3
+10,"Standard Home Delivery","Regular home delivery service within Barcelona metropolitan area",4.99,"2-4 business days",4
+11,"Express Delivery","Same day delivery for orders before 2pm in Barcelona city",8.99,"Same day delivery",4
+12,"Store Pickup","Pick up your order at Sports Gracia",0.00,"Ready in 2 hours",4
+13,"Standard Home Delivery","Regular home delivery service within Barcelona metropolitan area",4.99,"2-4 business days",5
+14,"Express Delivery","Same day delivery for orders before 2pm in Barcelona city",7.99,"Same day delivery",5
+15,"Store Pickup","Pick up your order at Sports Diagonal Mar",0.00,"Ready in 2 hours",5
+16,"Standard Home Delivery","Regular home delivery service within Barcelona metropolitan area",4.99,"2-4 business days",6
+17,"Express Delivery","Same day delivery for orders before 2pm in Barcelona city",7.99,"Same day delivery",6
+18,"Store Pickup","Pick up your order at Sports La Maquinista",0.00,"Ready in 2 hours",6

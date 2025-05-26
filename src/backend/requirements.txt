@@ -1,0 +1,13 @@
+psycopg2-binary
+google-genai
+tqdm
+pandas
+numpy
+pathlib
+toolbox-langchain
+langgraph 
+langchain-google-vertexai
+flask
+flask-cors
+fastapi
+uvicorn
