@@ -71,7 +71,7 @@ Deploying this demo consists of 3 steps:
 ### Before you begin
 Clone this repo to your local machine:
 ```
-git clone https://github.com/mtoscano84/sport-store-agent-ai.git
+git clone https://github.com/mtoscano84/sports-store-agent-ai.git
 ```
 
 ### Setting up your Database
