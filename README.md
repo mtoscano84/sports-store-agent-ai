@@ -51,7 +51,7 @@ Key Benefits of Using AlloyDB with pgvector
 - **Operational Simplicity**: As a fully-managed service, AlloyDB handles administration tasks, backups, and updates, letting you focus on application development and leveraging optimized vector search features.
 
 ### Architecture
-![Architecture](docs/architecture.jpeg)
+![Architecture](docs/architecture.jpg)
 
 This architecture provides an image-based product recommendation system. It leverages Vertex AI to analyze images and generate meaningful representations of their visual content. These representations are stored in AlloyDB for fast similarity searches, allowing the system to recommend visually similar products to users based on their image submissions.
 
