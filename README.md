@@ -31,10 +31,10 @@ Finn provides intelligent, text-based recommendations and assistance, transformi
 - **Natural Language Understanding**: Finn, powered by Gemini, interprets your conversational requests, understanding your preferences, questions about products, or even multi-step shopping needs.
 - **Contextual Recommendations**: Leveraging product descriptions, categories, and brands stored in AlloyDB, Finn uses text embeddings (via pg_vector) and full-text search (GIN indexes) to find items that semantically match your query. It's about finding what you mean, not just what you type.
 - **Intelligent Action Orchestration**: Beyond recommendations, Finn's agentic capabilities (orchestrated by LangGraph and connected to the database via MCP ToolBox) allow it to perform actions like:
--- Providing detailed product information.
--- Finding stores near a specific location using PostGIS.
--- Helping you place orders.
--- Assisting with delivery method updates.
+Providing detailed product information.
+Finding stores near a specific location using PostGIS.
+Helping you place orders.
+Assisting with delivery method updates.
 
 Finn transforms passive shopping into an active, conversational experience, where your requests are understood and acted upon.
 
@@ -47,7 +47,7 @@ AlloyDB for PostgreSQL isn't just a database here; it's the central intelligence
 - **Scalability & Reliability**: As a fully-managed service, AlloyDB handles the heavy lifting, ensuring the agent performs flawlessly even with growing datasets and complex queries.
 
 ### MCP ToolBox for Databases: Connecting the Agent to the Database
-The MCP ToolBox plays a key role in simplifying the connection between Finn (our AI agent) and AlloyDB. It exposes a set of specialized functionalities, or "tools," that allow Finn to:
+MCP ToolBox plays a key role in simplifying the connection between Finn (our AI agent) and AlloyDB. It exposes a set of specialized functionalities, or "tools," that allow Finn to:
 
 - **Access Product Data**: Seamlessly query the product catalog based on embeddings, keywords, or categories.
 - **Manage Shopping & Orders**: Interact with the shopping_lists, inventory, orders, and delivery_methods tables to fulfill user requests like placing orders or checking stock.
