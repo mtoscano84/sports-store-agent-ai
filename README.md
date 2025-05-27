@@ -113,7 +113,6 @@ Once Finn Sports Agent AI is deployed, you're ready to chat!
 Start by asking Finn for product recommendations, asking questions about items, or even guiding you through finding a store and placing an order.
 
 ![GenAI FashionStore](images/GenAIFashionStore_DemoDark.gif)
-
 Here's a typical interaction flow:
 - Hello, I’m Miguel
 
@@ -139,6 +138,7 @@ Here's a typical interaction flow:
 This demo was built with a generic sports product catalog and fictional locations. If you'd like to tailor it, you can easily adapt the dataset to your specific needs.
 
 Follow the instructions to customize it:
+
 [Customize the dataset](./docs/customize_dataset.md)
 
 ### Clean up Resources
