@@ -9,8 +9,6 @@ Go to the '/data' folder and edit the following CSV files:
 * **delivery_methods.csv**
     * Review the 'description' field to match your store names and city.
 
----
-
 ## 2. Update Locations for the Stores and the Users
 
 To update the locations, you'll first need the latitude and longitude for your new spots.
@@ -22,8 +20,6 @@ To update the locations, you'll first need the latitude and longitude for your n
 4.  Save these new latitude and longitude values for your stores and users.
 5.  Then, open 'src/backend/setup/load_data.py', find the 'add_location_columns' function, and update it with the latitude and longitude you just saved.
 
----
-
 ## 3. Update the Name of the imaginary store (GenAI Sports)
 
 The demo uses an imaginary store called "GenAI Sports." If you want to customize its name, follow these steps:
@@ -32,8 +28,6 @@ The demo uses an imaginary store called "GenAI Sports." If you want to customize
 2.  Search for "GenAI Sports" and replace it with your new store name.
 3.  Go to 'src/frontend/src/pages/Home.jsx'.
 4.  Search for "GenAI Sports" and replace it with your new store name.
-
----
 
 ## 4. Update the Logo of Your GenAI Store
 
