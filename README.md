@@ -4,9 +4,7 @@ Note: This project is for demonstration only and is not an officially supported 
 
 ## Introduction
 
-This project showcases Finn, an AI-powered agent designed to revolutionize the sports shopping experience. Finn understands your needs, from recommending products, to finding nearby stores, placing orders, and even updating delivery methods. This architecture dramatically transforms the user journey, making shopping intelligent and effortless.
-
-This demo showcases Finn, our AI Agent, designed to be your ultimate shopping assistant. It's not just a search bar; Finn understands your needs, interacts dynamically, and can even carry out complex tasks. Instead of Browse or searching with keywords, you simply chat with Finn to get things done.
+This project showcases Finn, an AI Agent designed to revolutionize the sports shopping experience. Finn acts as your smart assistant, understanding your needs and guiding you through the entire shopping journey. It's not just a search bar; you simply chat with Finn to get things done, from recommending products to finding nearby stores, placing orders, and even updating delivery methods. This intelligent, conversational approach dramatically transforms the user experience, making shopping effortless and highly personalized.
 
 ## Table of Contents
 <!-- TOC depthfrom:2 -->
