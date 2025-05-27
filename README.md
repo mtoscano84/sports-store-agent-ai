@@ -1,4 +1,4 @@
-# GenAI Sports Agent AI | LangGraph + Gemini + MCP Toolbox + AlloyDB
+# GenAI Sports Agent: AI-Powered Shopping
 
 Note: This project is for demonstration only and is not an officially supported Google product.
 
