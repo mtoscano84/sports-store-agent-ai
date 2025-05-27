@@ -20,6 +20,7 @@ This demo showcases Finn, our AI Agent, designed to be your ultimate shopping as
     - [Deploying MCP ToolBox](#deploying-mcp-toolbox)
     - [Deploying Finn Sports Agent AI](#deploying-finn-agent-ai)
     - [Running Finn Sports Agent AI](#running-finn-agent-ai)
+    - [Customize the dataset](#customize-the-dataset)
     - [Clean up Resources](#clean-up-resources)
 
 <!-- /TOC -->
@@ -108,9 +109,37 @@ To deploy Finn Sports Agent AI, follow these instructions:
 [Deploy Finn Sports Agent AI](docs/deploy_app_services.md)
 
 ### Running Finn Sports Agent AI
-Start uploading a picture to get recommendations !
+Once Finn Sports Agent AI is deployed, you're ready to chat!
+Start by asking Finn for product recommendations, asking questions about items, or even guiding you through finding a store and placing an order.
 
 ![GenAI FashionStore](images/GenAIFashionStore_DemoDark.gif)
+
+Here's a typical interaction flow:
+- Hello, I’m Miguel
+
+- I’m looking for running shoes for an ultra-trail
+
+- Tell me more details about 'Ultra Glide'
+
+- OK, add Ultra Glide, size 40, color Red/Grey to my shopping list
+
+- Find stores near me
+
+- Please, place an order using my shopping list for the store 'Sports Diagonal Mar'
+
+- Check my orders status
+
+- Please list delivery methods for 'Sports Diagonal Mar' 
+
+- Update the delivery method to Express Delivery for my order
+
+- Check my orders status
+
+### Customize the dataset
+This demo was built with a generic sports product catalog and fictional locations. If you'd like to tailor it, you can easily adapt the dataset to your specific needs.
+
+Follow the instructions to customize it:
+[Customize the dataset](./docs/customize_dataset.md)
 
 ### Clean up Resources
 [Instructions for cleaning up resources](./docs/clean_up.md)
