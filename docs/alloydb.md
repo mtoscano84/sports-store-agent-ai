@@ -249,9 +249,9 @@ select count(*) from products;
    100
 ```
 
-## Load Recipes Images on GCS
+## Load Product Images on GCS
 
-We will use a GCS Bucket to serve the recipes images. All the images has been created using Gemini model "imagen-3.0-generate-002"
+We will use a GCS Bucket to serve the product images. All the images has been created using Gemini model "imagen-3.0-generate-002"
 
 1. Create a GCS Bucket to store the images and serve them from there
 ```
