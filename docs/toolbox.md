@@ -38,7 +38,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     --role='roles/serviceusage.serviceUsageConsumer'
 ```
 
-5. Go to sports-store-agent-ai/src/toolbox and update the section "sources" of tools.yaml with the connection string from your AlloyDB Instance (use the private IP):
+5. Go to sports-store-agent-ai/src/backend/toolbox and update the section "sources" of tools.yaml with the connection string from your AlloyDB Instance (use the private IP):
 ```
 sources:
   my-pg-source:
