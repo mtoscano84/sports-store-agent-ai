@@ -30,11 +30,7 @@ Finn provides intelligent, text-based recommendations and assistance, transformi
 
 - **Natural Language Understanding**: Finn, powered by Gemini, interprets your conversational requests, understanding your preferences, questions about products, or even multi-step shopping needs.
 - **Contextual Recommendations**: Leveraging product descriptions, categories, and brands stored in AlloyDB, Finn uses text embeddings (via pg_vector) and full-text search (GIN indexes) to find items that semantically match your query. It's about finding what you mean, not just what you type.
-- **Intelligent Action Orchestration**: Beyond recommendations, Finn's agentic capabilities (orchestrated by LangGraph and connected to the database via MCP ToolBox) allow it to perform actions like:
-Providing detailed product information.
-Finding stores near a specific location using PostGIS.
-Helping you place orders.
-Assisting with delivery method updates.
+- **Intelligent Action Orchestration**: Beyond recommendations, Finn's agentic capabilities (orchestrated by LangGraph and connected to the database via MCP ToolBox) allow it to perform actions like: providing detailed product information, finding stores near a specific location using PostGIS, helping you place orders or assisting with delivery method updates.
 
 Finn transforms passive shopping into an active, conversational experience, where your requests are understood and acted upon.
 
