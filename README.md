@@ -1,4 +1,4 @@
-# Finn: GenAI Sports Shopping Agent
+# Sports Shopping AI Agent
 
 Note: This project is for demonstration only and is not an officially supported Google product.
 
